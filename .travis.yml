@@ -19,4 +19,4 @@ after_success:
   - push dmatthe/multi-client
   - push dmatthe/multi-nginx
   - push dmatthe/multi-server
-  - push dmatthe/multi-workerq
+  - push dmatthe/multi-worker
