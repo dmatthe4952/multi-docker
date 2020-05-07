@@ -17,7 +17,7 @@ after_success:
 
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
 
-  - push dmatthe/multi-client
-  - push dmatthe/multi-nginx
-  - push dmatthe/multi-server
-  - push dmatthe/multi-worker
+  - docker push dmatthe/multi-client
+  - docker push dmatthe/multi-nginx
+  - docker push dmatthe/multi-server
+  - docker push dmatthe/multi-worker
