@@ -3,6 +3,7 @@ services:
   - docker
 
 before_install:
+  - ls
   - docker build -t dmatthe4952/react-test -f ./client/Dockerfile.dev ./client
 
 script:
